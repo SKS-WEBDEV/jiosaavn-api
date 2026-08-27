@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [{ "source": "(.*)", "destination": "/api" }],
+  "rewrites": [{ "source": "(.*)", "destination": "/server" }],
   "regions": ["bom1"],
   "outputDirectory": "dist",
   "headers": [
@@ -25,7 +25,7 @@
         },
         {
           "key": "Author",
-          "value": "Sumit Kolhe"
+          "value": "Sumit Kolhe With TCR Gedi"
         },
         {
           "key": "Github",
